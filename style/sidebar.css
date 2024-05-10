@@ -21,6 +21,11 @@
   width: 100%;
 }
 
+.logo2{
+  width: 100%;
+  display: none;
+}
+
 a{
   text-decoration: none;
   cursor: pointer;
@@ -62,6 +67,27 @@ a{
 
 @media screen and (max-width: 1230px) {
   .side-bar{
-    width: 72px;
+    width: 46px;
+  }
+
+  .sub-sidebar{
+    margin: 4px 0;
+  }
+
+  .sub-sidebar div{
+    display: none;
+  }
+
+  .instagram-logo{
+    padding: 20px 10px 10px;
+    width: 24px;
+  }
+
+  .logo1{
+    display: none;
+  }
+
+  .logo2{
+    display: block;
   }
 }
